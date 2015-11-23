@@ -1,0 +1,85 @@
+.c-header-container {
+
+}
+
+.logo {
+  margin-left: 1em;
+  padding-top: 16px;
+}
+
+.c-contents {
+  @include outer-container;
+  padding-top: 7em;
+  @include media($mobile, $mobile-small) {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  text-align: center;
+}
+
+.c-contents__list--red {
+  color: $red;
+}
+
+
+.c-recipe {
+  @include outer-container;
+  padding-top: 5em;
+  @include media($mobile, $mobile-small) {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+.c-recipe__title {
+  @include span-columns(8);
+  @include shift(4);
+  @include media($mobile, $mobile-small) {
+    @include span-columns(12);
+    @include shift(0);
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.c-recipe__element {
+}
+
+
+
+.c-recipe__element--list {
+  @include span-columns(8);
+  @include shift(4);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  @include media($mobile, $mobile-small) {
+    @include span-columns(12);
+    @include shift(0);
+  }
+}
+
+
+.c-menu {
+  @include outer-container;
+  padding-top: 6em;
+  @include media($mobile, $mobile-small) {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  text-align: center;
+}
+
+.c-menu__list {
+  padding-top: 1em;
+  @include span-columns(8);
+  @include shift(2);
+  @include media($mobile, $mobile-small) {
+    @include span-columns(12);
+    @include shift(0);
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
