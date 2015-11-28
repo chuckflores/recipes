@@ -1999,6 +1999,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/recipes\/drinks\/whiskey\/the-boulevardier.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/recipes\/drinks\/whiskey\/the-boulevardier.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/recipes\/fish.html": {
 		"fileType": 8192,
 		"ignore": 0,

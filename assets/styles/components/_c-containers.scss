@@ -25,9 +25,13 @@
 .c-recipe {
   @include outer-container;
   padding-top: 5em;
+  padding-left: 1em;
+  padding-right: 1em;
   @include media($mobile, $mobile-small) {
     margin-left: 1em;
     margin-right: 1em;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -54,6 +58,7 @@
   @include shift(4);
   padding-top: 1em;
   padding-bottom: 1em;
+
   @include media($mobile, $mobile-small) {
     @include span-columns(12);
     @include shift(0);

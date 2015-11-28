@@ -367,7 +367,7 @@ header {
   padding-top: 16px; }
 
 .c-contents {
-  max-width: 68em;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 7em;
@@ -385,10 +385,12 @@ header {
   color: #F04C2B; }
 
 .c-recipe {
-  max-width: 68em;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5em; }
+  padding-top: 5em;
+  padding-left: 1em;
+  padding-right: 1em; }
   .c-recipe::after {
     clear: both;
     content: "";
@@ -396,7 +398,9 @@ header {
   @media screen and (max-width: 500px) {
     .c-recipe {
       margin-left: 1em;
-      margin-right: 1em; } }
+      margin-right: 1em;
+      padding-left: 0;
+      padding-right: 0; } }
 
 .c-recipe__title {
   float: left;
@@ -441,7 +445,7 @@ header {
         margin-right: 0; } }
 
 .c-menu {
-  max-width: 68em;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 6em;
